@@ -20,7 +20,7 @@ This guide is directed for those who have a mininum experience with Docker and a
 - [.Net Core 3](#net-core-3)
 - [Docker](#docker)
 
-#3# Heroku
+### Heroku
 
 Heroku is a cloud platform that allows applications be hosted at will. It's mostly used for web APIs.
 Go to [Heroku website](https://signup.heroku.com/login) and sign up or sign in.
