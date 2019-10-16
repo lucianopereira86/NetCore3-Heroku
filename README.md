@@ -61,18 +61,21 @@ CMD ASPNETCORE_URLS=http://*:$PORT dotnet NetCore3WebAPI.dll
 
 ### Docker
 
-In the following commands, replace [MYAPP] by the app's name created on Heroku.
-Inside the publish folder, run in the terminal:
+Run the following commands in the _api_ folder replacing [MYAPP] by the app's name created on Heroku.
 
 ```batch
 docker build -t [MYAPP] .
 ```
 
-This will create a image for the .Net Core 3 project with the same name of your app.
-To authenticate with Heroku, run these commands and follow the instructions:
+To authenticate with Heroku, run this command:
 
 ```batch
 heroku login
+```
+
+Press any key to open a web browser tab and press the login button. Then, return to the terminal and run:
+
+```batch
 heroku container:login
 ```
 
