@@ -67,13 +67,13 @@ Run the following commands in the _api_ folder replacing [MYAPP] by the app's na
 docker build -t [MYAPP] .
 ```
 
-To authenticate with Heroku, run this command:
+To authenticate with Heroku, run this command. It be required to press any key to open a web browser window containing a login button. Just press on it.
 
 ```batch
 heroku login
 ```
 
-Press any key to open a web browser tab and press the login button. Then, return to the terminal and run:
+Then, return to the terminal and run:
 
 ```batch
 heroku container:login
