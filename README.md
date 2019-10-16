@@ -42,7 +42,7 @@ In your machine, install the latest version of Heroku CLI [here](https://devcent
 ### .Net Core 3
 
 Download the web API from this GitHub repository: [NetCore3-MySQL](https://github.com/lucianopereira86/NetCore3-MySQL).  
-Follow the instructions from this [article](https://dev.to/lucianopereira86/net-core-web-api-part-2-mysql-3bje) to make the required database connection.
+Follow the instructions to make the required database connection.
 
 In the _api_ folder, create manually a file called "Dockerfile" without extension and edit it with this lines:
 
