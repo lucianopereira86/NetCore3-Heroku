@@ -1,4 +1,4 @@
-![titulo](/docs/titulo.JPG)
+![titulo](/docs/netcore3_heroku_titulo.JPG)
 
 # NetCore3-Heroku
 
@@ -27,15 +27,15 @@ Go to [Heroku website](https://signup.heroku.com/login) and sign up or sign in.
 
 In the Dashboard, click on "Create new app".
 
-![heroku01](/images/uploads/netcore3_heroku_heroku01.JPG)
+![heroku01](/docs/netcore3_heroku_heroku01.JPG)
 
 Or
 
-![heroku01](/images/uploads/netcore3_heroku_heroku01_2.JPG)
+![heroku01](/docs/netcore3_heroku_heroku01_2.JPG)
 
 Name the app and click on "Create app"
 
-![heroku02](/images/uploads/netcore3_heroku_heroku02.JPG)
+![heroku02](/docs/netcore3_heroku_heroku02.JPG)
 
 In your machine, install the latest version of Heroku CLI [here](https://devcenter.heroku.com/articles/heroku-cli)
 
@@ -100,7 +100,7 @@ Access the URL of your app with Swagger:
 https://[MYAPP].herokuapp.com/swagger/index.html
 ```
 
-![heroku03](/images/uploads/netcore3_heroku_heroku03.JPG)
+![heroku03](/docs/netcore3_heroku_heroku03.JPG)
 
 ## Conclusion
 
