@@ -29,10 +29,6 @@ In the Dashboard, click on "Create new app".
 
 ![heroku01](/docs/netcore3_heroku_heroku01.JPG)
 
-Or
-
-![heroku01](/docs/netcore3_heroku_heroku01_2.JPG)
-
 Name the app and click on "Create app"
 
 ![heroku02](/docs/netcore3_heroku_heroku02.JPG)
@@ -67,7 +63,7 @@ Run the following commands in the _api_ folder replacing [MYAPP] by the app's na
 docker build -t [MYAPP] .
 ```
 
-To authenticate with Heroku, run this command. It be required to press any key to open a web browser window containing a login button. Just press on it.
+To authenticate with Heroku, run this command. It be required to press any key to open a web browser window containing a login button.
 
 ```batch
 heroku login
