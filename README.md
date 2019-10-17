@@ -85,13 +85,13 @@ Tag the image:
 docker tag [MYAPP] registry.heroku.com/[MYAPP]/web
 ```
 
-Build the Dockerfile and push the image:
+Build the image locally and push it to Heroku's Container Registry:
 
 ```batch
 heroku container:push web -a [MYAPP]
 ```
 
-Release the image to deploy the app:
+Release the image on Heroku to be deployed:
 
 ```batch
 heroku container:release web -a [MYAPP]
