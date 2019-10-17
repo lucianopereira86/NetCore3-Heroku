@@ -29,11 +29,11 @@ In the Dashboard, click on "Create new app".
 
 ![heroku01](/docs/netcore3_heroku_heroku01.JPG)
 
-Name the app and click on "Create app"
+Name the app and click on "Create app".
 
 ![heroku02](/docs/netcore3_heroku_heroku02.JPG)
 
-In your machine, install the latest version of Heroku CLI [here](https://devcenter.heroku.com/articles/heroku-cli)
+In your machine, install the latest version of Heroku CLI [here](https://devcenter.heroku.com/articles/heroku-cli).
 
 ### .Net Core 3
 
@@ -63,7 +63,7 @@ Run the following commands in the _api_ folder replacing [MYAPP] by the app's na
 docker build -t [MYAPP] .
 ```
 
-To authenticate with Heroku, run this command. It be required to press any key to open a web browser window containing a login button.
+To authenticate with Heroku, run this command. It will be required to press any key to open a web browser window containing a login button.
 
 ```batch
 heroku login
